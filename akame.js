@@ -1214,7 +1214,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                goblok = fs.readFileSync('./media/sound/salam.mp3')
                akame.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {quoted:fvn})}
             break
-            case 'bot': {
+            case 'botlnyx': {
                list = ['./media/sound/oy.mp3','./media/sound/kenapa.mp3','./media/sound/iya.mp3']
                random = list[Math.floor(Math.random() * list.length)]
                goblok = fs.readFileSync(random)
@@ -1270,7 +1270,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 │└─────────────┈❖
 │• Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
 │• Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
-│• Menuju HBD GuaAbuzz :
+│• Menuju HBD Aiman :
 │  ${menuju}
 │• WIB : ${wib}
 │• WITA : ${wita}
@@ -1311,7 +1311,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 │└─────────────┈❖
 │• Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
 │• Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
-│• Menuju HBD GuaAbuzz :
+│• Menuju HBD Aiman :
 │  ${menuju}
 │• WIB : ${wib}
 │• WITA : ${wita}
@@ -1325,11 +1325,10 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 ]
                 },
                 {
-                title: "List Menu Simpel Bot >_<",
+                title: "List Menu Simpel Bot by aiman >_<",
                 rows: [
                 {title: "⌲ 「 Anonymous Chat Menu 」", rowId: `${prefix}anonymousmenu`, description: `Menampilkan Anonymous Chat Menu`},
                 {title: "⌲ 「 Anime Menu 」", rowId: `${prefix}animemenu`, description: `Menampilkan Anime Menu`},
-                {title: "⌲ 「 Asupan Menu 」", rowId: `${prefix}asupanmenu`, description: `Menampilkan Asupan Menu`},
                 {title: "⌲ 「 Convert Menu 」", rowId: `${prefix}convertmenu`, description: `Menampilkan Convert Menu`},
                 {title: "⌲ 「 Download Menu 」", rowId: `${prefix}downloadmenu`, description: `Menampilkan Download Menu`},
                 {title: "⌲ 「 Database Menu 」", rowId: `${prefix}databasemenu`, description: `Menampilkan Database Menu`},
@@ -1338,7 +1337,6 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 {title: "⌲ 「 Game Menu 」", rowId: `${prefix}gamemenu`, description: `Menampilkan Game Menu`},
                 {title: "⌲ 「 Islamic Menu 」", rowId: `${prefix}islamicmenu`, description: `Menampilkan Islamic Menu`},
                 {title: "⌲ 「 Kerang Menu 」", rowId: `${prefix}kerangmenu`, description: `Menampilkan Kerang Menu`},
-                {title: "⌲ 「 Meme Menu 」", rowId: `${prefix}mememenu`, description: `Menampilkan Meme Menu`},
                 {title: "⌲ 「 Main Menu 」", rowId: `${prefix}mainmenu`, description: `Menampilkan Main Menu`},
                 {title: "⌲ 「 Owner Menu 」", rowId: `${prefix}ownermenu`, description: `Menampilkan Owner Menu`},
                 {title: "⌲ 「 Primbon Menu 」", rowId: `${prefix}primbonmenu`, description: `Menampilkan Primbon Menu`},
@@ -1391,7 +1389,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 ]
                 }
                 ]
-                akame.sendListMsg(m.chat, simple, ntiktok, `Hello Everyone !`, `Touch Me (⁠≧⁠▽⁠≦⁠)`, sections, floc)
+                akame.sendListMsg(m.chat, simple, ntiktok, `Hello Everyone !`, `Touch Me (⁠≧⁠▽⁠≦⁠)メ`, sections, floc)
             }
             break
             case 'sc':
@@ -1403,7 +1401,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             case 'test':
             case 'jaringan':
             case 'lag': {
-                m.reply('Pending Ya Kak?')
+                m.reply('Pending/lag Ya Kak?')
             }
             break
             case 'chat': {
@@ -1965,7 +1963,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 				{title: "Si Paling Pinter", rowId: `pintargrup`, description: `Belajarlah dari orang ini`},
 				{title: "Si Paling Wibu", rowId: `wibugrup`, description: `Anjay wibu 😌😌`},
 				{title: "Si Cantik bak Bidadari", rowId: `cantikgrup`, description: `Wow cantik sekali org ini😍`},
-				{title: "Si Ganteng bak tuan Putra", rowId: `gantenggrup`, description: `Ganteng sekaliii tuan putra ini :D`},
+				{title: "Si hensem bak tuan Putra", rowId: `gantenggrup`, description: `Ganteng sekaliii tuan putra ini :D`},
 				]
 				},
 				]
@@ -3817,7 +3815,7 @@ break
                 }]
                 let buttonMessage = {
                     text: `~_${result.quotes}_\n\nBy '${result.karakter}', ${result.anime}\n\n- ${result.up_at}`,
-                    footer: 'Quotes By Akame',
+                    footer: 'Quotes By Aiman',
                     buttons: buttons,
                     headerType: 2
                 }
@@ -3841,7 +3839,7 @@ break
                 }]
                 let buttonMessage = {
                     text: `~_${anu.result.quotes}_\n\nBy '${anu.result.character}', ${anu.result.anime}\n\n- ${anu.result.episode}`,
-                    footer: 'Quotes By Akame',
+                    footer: 'Quotes By Aiman',
                     buttons: buttons,
                     headerType: 2
                 }
@@ -3877,7 +3875,7 @@ break
                 }]
                 let buttonMessage = {
                     text: anu.result.message,
-                    footer: 'Quotes By Akame',
+                    footer: 'Quotes By Aiman',
                     buttons: buttons,
                     headerType: 2
                 }
@@ -3900,7 +3898,7 @@ break
                 }]
                 let buttonMessage = {
                     text: `Judul : ${anu.result.Judul}\nPenulis : ${anu.result.Penulis}\n\n${anu.result.cerita}`,
-                    footer: 'Quotes By Akame',
+                    footer: 'Quotes By Aiman',
                     buttons: buttons,
                     headerType: 2
                 }
@@ -5087,7 +5085,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             break
             //Jangan Dihapus Tar Eror Banh
             case 'owner': case 'creator': {
-                const _0x53d5a1=_0x27a5;function _0x1462(){const _0xbe3016=['12uYHjID','208fygsPF','END:VCARD','2931pmexYt','chat','item2.EMAIL;type=INTERNET:rajifarmansyah46@gmail.com\x0a','owner','item1.TEL;type=CELL;type=VOICE;waid=6289636827082:+62\x20896-3682-7082\x0a','BEGIN:VCARD\x0a','5414050UngFlr','ORG:GuaAbuzz;\x0a','106vqkniK','item3.X-ABLabel:TikTok\x0a','N:;GuaAbuzz\x20Creator;;;','item1.X-ABLabel:Creator\x20Akame\x20-\x20MD\x0a','11977850TbeEvp','4721KSYLYP','2327066mcQmla','3292794BrTbVz','GuaAbuzz','item4.X-ABLabel:Region\x0a','sendContact','5082320iACHTF'];_0x1462=function(){return _0xbe3016;};return _0x1462();}function _0x27a5(_0x35959a,_0x59c18c){const _0x146279=_0x1462();return _0x27a5=function(_0x27a522,_0x5d48a4){_0x27a522=_0x27a522-0x1d1;let _0x1a2418=_0x146279[_0x27a522];return _0x1a2418;},_0x27a5(_0x35959a,_0x59c18c);}(function(_0x4e6b4a,_0xc2511f){const _0x82151d=_0x27a5,_0x596f5d=_0x4e6b4a();while(!![]){try{const _0x4cc183=parseInt(_0x82151d(0x1d3))/0x1*(-parseInt(_0x82151d(0x1e5))/0x2)+-parseInt(_0x82151d(0x1dd))/0x3*(-parseInt(_0x82151d(0x1db))/0x4)+parseInt(_0x82151d(0x1e3))/0x5+-parseInt(_0x82151d(0x1da))/0x6*(-parseInt(_0x82151d(0x1d4))/0x7)+parseInt(_0x82151d(0x1d9))/0x8+-parseInt(_0x82151d(0x1d5))/0x9+-parseInt(_0x82151d(0x1d2))/0xa;if(_0x4cc183===_0xc2511f)break;else _0x596f5d['push'](_0x596f5d['shift']());}catch(_0x32be5a){_0x596f5d['push'](_0x596f5d['shift']());}}}(_0x1462,0x9758c));let vcard=_0x53d5a1(0x1e2)+'VERSION:3.0\x0a'+_0x53d5a1(0x1e7)+'FN:GuaAbuzz\x20Creator\x0a'+_0x53d5a1(0x1e4)+_0x53d5a1(0x1e1)+_0x53d5a1(0x1d1)+_0x53d5a1(0x1df)+'item2.X-ABLabel:Email\x0a'+'item3.URL:https://tiktok.com/@guaabuzz\x0a'+_0x53d5a1(0x1e6)+'item4.ADR:;;Jepang;;;;\x0a'+_0x53d5a1(0x1d7)+_0x53d5a1(0x1dc);akame['sendMessage'](m[_0x53d5a1(0x1de)],{'contacts':{'displayName':_0x53d5a1(0x1d6),'contacts':[{'vcard':vcard}]}},{'quoted':fkontak}),akame[_0x53d5a1(0x1d8)](m[_0x53d5a1(0x1de)],global[_0x53d5a1(0x1e0)],fkontak);
+                const _0x53d5a1=_0x27a5;function _0x1462(){const _0xbe3016=['12uYHjID','208fygsPF','END:VCARD','2931pmexYt','chat','item2.EMAIL;type=INTERNET:rajifarmansyah46@gmail.com\x0a','owner','item1.TEL;type=CELL;type=VOICE;waid=6289636827082:+62\x20896-3682-7082\x0a','BEGIN:VCARD\x0a','5414050UngFlr','ORG:GuaAbuzz;\x0a','106vqkniK','item3.X-ABLabel:TikTok\x0a','N:;Aiman\x20Creator;;;','item1.X-ABLabel:Creator\x20Akame\x20-\x20MD\x0a','11977850TbeEvp','4721KSYLYP','2327066mcQmla','3292794BrTbVz','Aiman','item4.X-ABLabel:Region\x0a','sendContact','5082320iACHTF'];_0x1462=function(){return _0xbe3016;};return _0x1462();}function _0x27a5(_0x35959a,_0x59c18c){const _0x146279=_0x1462();return _0x27a5=function(_0x27a522,_0x5d48a4){_0x27a522=_0x27a522-0x1d1;let _0x1a2418=_0x146279[_0x27a522];return _0x1a2418;},_0x27a5(_0x35959a,_0x59c18c);}(function(_0x4e6b4a,_0xc2511f){const _0x82151d=_0x27a5,_0x596f5d=_0x4e6b4a();while(!![]){try{const _0x4cc183=parseInt(_0x82151d(0x1d3))/0x1*(-parseInt(_0x82151d(0x1e5))/0x2)+-parseInt(_0x82151d(0x1dd))/0x3*(-parseInt(_0x82151d(0x1db))/0x4)+parseInt(_0x82151d(0x1e3))/0x5+-parseInt(_0x82151d(0x1da))/0x6*(-parseInt(_0x82151d(0x1d4))/0x7)+parseInt(_0x82151d(0x1d9))/0x8+-parseInt(_0x82151d(0x1d5))/0x9+-parseInt(_0x82151d(0x1d2))/0xa;if(_0x4cc183===_0xc2511f)break;else _0x596f5d['push'](_0x596f5d['shift']());}catch(_0x32be5a){_0x596f5d['push'](_0x596f5d['shift']());}}}(_0x1462,0x9758c));let vcard=_0x53d5a1(0x1e2)+'VERSION:3.0\x0a'+_0x53d5a1(0x1e7)+'FN:GuaAbuzz\x20Creator\x0a'+_0x53d5a1(0x1e4)+_0x53d5a1(0x1e1)+_0x53d5a1(0x1d1)+_0x53d5a1(0x1df)+'item2.X-ABLabel:Email\x0a'+'item3.URL:https://tiktok.com/@guaabuzz\x0a'+_0x53d5a1(0x1e6)+'item4.ADR:;;Jepang;;;;\x0a'+_0x53d5a1(0x1d7)+_0x53d5a1(0x1dc);akame['sendMessage'](m[_0x53d5a1(0x1de)],{'contacts':{'displayName':_0x53d5a1(0x1d6),'contacts':[{'vcard':vcard}]}},{'quoted':fkontak}),akame[_0x53d5a1(0x1d8)](m[_0x53d5a1(0x1de)],global[_0x53d5a1(0x1e0)],fkontak);
             }
             break
             case 'req': case 'request': {
@@ -5548,12 +5546,12 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
 └┬─────────────┈❖
 ┌┤「 SEWA BOT 」
 │└─────────────┈❖
-│⭔ 1 Minggu 5k
-│⭔ 1 Bulan 15k
+│⭔ 1 Minggu rm5
+│⭔ 1 Bulan  rm15
 └┬─────────────┈❖
 ┌┤「 PEMBAYARAN 」
 │└─────────────┈❖
-│⭔ SAWERIA : ${global.saweria}
+│⭔ digi : 0102810046
 └┬─────────────┈❖
 ┌┤「 KEUNTUNGAN 」
 │└─────────────┈❖
@@ -5581,7 +5579,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
 └┬─────────────┈❖
 ┌┤「 DONASI 」
 │└─────────────┈❖
-│⭔ SAWERIA : ${global.saweria}
+│⭔ Digi : 60102810046
 │
 │⭔ Q.S Az-Zalzalah Ayat 7 :
 │
