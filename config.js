@@ -24,32 +24,32 @@ global.APIKeys = {
 
 //—————「 Set Nama Bot & Own 」—————//
 //terserah mau ubah atau nggak
-global.namabot = 'Akame'
-global.namaowner = 'GuaAbuzz'
+global.namabot = 'lynxbot'
+global.namaowner = 'Aiman'
 
 //—————「 Setting Owner 」—————//
 //terserah mau ubah atau nggak
-global.owner = ['6289636827082']
-global.ownernomer = "6289636827082"
-global.premium = ['6289636827082','6282171978174']
+global.owner = ['60102810046']
+global.ownernomer = "60102810046"
+global.premium = ['60102810046','60102810046']
 
 //—————「 Setting Donasi 」—————//
 //ubah aja kalau ada yg gapunya kasih tanda -
-global.saweria = ['https://saweria.co/GuaAbuzz']
+global.saweria = ['-']
 
 //—————「 Set Kebutuhan Button 」—————//
 //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :)
-global.email = 'rajifarmansyah46@gmail.com'
+global.email = 'lynxaiman@yahoo.com'
 global.namaweb = 'TikTok'
-global.myweb = 'https://tiktok.com/@guaabuzz'
-global.region = 'Jepang'
-global.github = 'https://github.com/Abuzzpoet'
-global.mygc = 'https://chat.whatsapp.com/FGmVjFYJBjjGst62qwNKJB'
-global.mytt = 'https://tiktok.com/@guaabuzz'
+global.myweb = 'tiktok.com/@aiman_nightsad'
+global.region = 'Malaysia'
+global.github = 'https://github.com/ai-man-123'
+global.mygc = 'gk ade'
+global.mytt = 'https://tiktok.com/@aiman_nightsad'
 
 //—————「 Set Wm 」—————//
 //terserah mau ubah atau nggak
-global.packname = 'GuaAbuzz'
+global.packname = 'Aiman'
 global.author = 'WhatsApp Bot'
 
 //—————「 Set Nama Session 」—————//
@@ -70,7 +70,7 @@ global.sp = '⭔'
 //—————「 Set Message 」—————//
 //terserah mau ubah apa nggak
 global.mess = {
-    success: '🤗Done, Oke Desu~',
+    success: 'Done, Oke Desu~',
     admin: 'Perintah Ini Hanya Bisa Digunakan Oleh Admin !',
     botAdmin: 'Perintah Ini Hanya Bisa Digunakan Ketika Bot Menjadi Admin !',
     owner: 'Perintah Ini Hanya Bisa Digunakan Oleh Owner !',
@@ -93,9 +93,9 @@ global.limitawal = {
 //terserah mau ubah apa nggak, menurut gua jangan di ubah!
 global.thumb = fs.readFileSync('./media/image/akame.jpg')
 global.kurome = { url: 'https://telegra.ph/file/de381b0caeb315a99c68a.mp4' }
-global.botname = 'GuaAbuzz Creator'
-global.akulaku = 'Bot By GuaAbuzz'
-global.ttname = 'TikTok GuaAbuzz'
+global.botname = 'Aiman Creator'
+global.akulaku = 'Bot By lynxaiman'
+global.ttname = 'TikTok aiman_nightsad'
 
 //—————「 Set Random Image Menu 」—————//
 //gausah di apa² in!
