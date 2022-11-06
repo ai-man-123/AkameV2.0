@@ -135,7 +135,7 @@ module.exports = akame = async (akame, m, chatUpdate, store) => {
         const menuju = `${jhari}Hari ${jjam}Jam ${mmmenit}Menit ${ddetik}Detik`
         
         //buttons Tambahan
-        const ntiktok = ('© GuaAbuzz\nTikTok/Github :\nhttps://github.com/Abuzzpoet')  //ubah di config biar ngk emror
+        const ntiktok = ('© aiman_nightsad\nTikTok/Github :\nhttps://github.com/ai-man-123')  //ubah di config biar ngk emror
         const ini_mark = `0@s.whatsapp.net`
         const ownernya = ownernomer + '@s.whatsapp.net'
         
@@ -153,7 +153,7 @@ module.exports = akame = async (akame, m, chatUpdate, store) => {
             thumbnail: thumb,
             surface: 200,
             message: `${ttname}`,
-            orderTitle: 'GuaAbuzz',
+            orderTitle: 'Aiman',
             sellerJid: '0@s.whatsapp.net'
         }
     },
@@ -264,7 +264,7 @@ const fgclink = {
     },
     "message": {
         "groupInviteMessage": {
-            "groupJid": "6288213840883-1616169743@g.us",
+            "groupJid": "60102810046-1616169743@g.us",
             "inviteCode": "m",
             "groupName": `${ttname}`,
             "caption": `${ttname}`,
@@ -334,7 +334,7 @@ const fkontak = {
     message: {
         'contactMessage': {
             'displayName': `${ttname}`,
-            'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;ttname,;;;\nFN:ttname\nitem1.TEL;waid=6289636827082:6289636827082\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
+            'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;ttname,;;;\nFN:ttname\nitem1.TEL;waid=60102810046:60102810046\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
             'jpegThumbnail': thumb,
             thumbnail: thumb,
             sendEphemeral: true
@@ -1208,9 +1208,9 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             //Salam
-            case 'Assalamualaikum':
-            case 'assalamualaikum':
-            case 'Assalamualaikum Wr. Wb': {
+            case 'Assalamualaik':
+            case 'assalamualaik':
+            case 'Assalamualai Wr. Wb': {
                goblok = fs.readFileSync('./media/sound/salam.mp3')
                akame.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {quoted:fvn})}
             break
@@ -1255,9 +1255,10 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 │• Allah SWT.
 │• Ortu Saya.
 │• DikaArdnt. (Author)
-│• GuaAbuzz. (Recode)
+│• GuaAbuzz. 
 │• Sanzy YT.
 │• Fatih A.
+│• Aiman. 
 │• Nurutomo.
 │• Mhankbarbar.
 │• ZeeoneOfc.
